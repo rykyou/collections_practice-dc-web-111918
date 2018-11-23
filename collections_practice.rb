@@ -51,5 +51,6 @@ def add_s (strings_array)
       element
     else 
       element.insert(-1, "s")
+    end 
   end 
 end 
