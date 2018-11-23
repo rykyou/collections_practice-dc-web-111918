@@ -29,5 +29,5 @@ def reverse_array(integers)
 end 
 
 def kesha_maker(strings_array)
-  
+  binding.pry
 end 
