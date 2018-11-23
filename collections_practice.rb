@@ -46,5 +46,5 @@ def sum_array(integers_array)
 end 
 
 def add_s (strings_array)
-  binding.pry
+  
 end 
