@@ -9,12 +9,15 @@ def sort_array_desc(integers)
 end 
 
 def sort_array_char_count(strings_array)
-  strings_array.sort do |a,b|
+  strings_array.sort do |a, b|
     a.length <=> b.length 
   end 
 end 
 
 def swap_elements(array)
-  array.sort |a,b|
-  array[1] <=> array[2]
+  array.sort |a, b|
+    if a == array[1] 
+      a <=> b
+    end 
+  end 
 end 
