@@ -48,7 +48,7 @@ end
 def add_s (strings_array)
   strings_array.each_with_index.collect do |element, index|
     if index == 1 
-      element
+      return element
     else 
       element.insert(-1, "s")
     end 
